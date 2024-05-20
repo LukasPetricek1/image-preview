@@ -1,0 +1,13 @@
+.navigation{ 
+  grid-area:1 / 1 / 2 / -1;
+}
+
+ul li a{
+  transition:.3s !important
+}
+
+ul li a:hover{
+  transform:scale(1.1);
+  color:blue !important;
+  font-weight:bold
+}
